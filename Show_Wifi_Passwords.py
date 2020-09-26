@@ -10,4 +10,3 @@ for wifi in wifis:
         print(f'Wifi Name: {wifi}, Password: {results[0]}')
     except IndexError:
         print(f'Wifi Name: {wifi}, Password: can\'t be read')
-99
